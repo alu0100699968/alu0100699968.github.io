@@ -2,69 +2,70 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Portfolio de Sergio</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="stylesheets/styles.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Portfolio de Sergio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-  <header>
-    <div id=menu>
-      <h1>Portfolio de Sergio</h1>
-      <nav>
-        <ul>
-          <li>
-            <a href="#about"><i class="fa fa-user"></i><span> Sobre mí</span></a></li>
-          <li><a href="#trabajos"><i class="fa fa-university"></i><span> Mis trabajos</span></a></li>
-        </ul>
-      </nav>
+    <header>
+        <div id=menu>
+            <h1>Portfolio de Sergio</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about"><i class="fa fa-user"></i><span> Sobre mí</span></a></li>
+                    <li><a href="#trabajos"><i class="fa fa-university"></i><span> Mis trabajos</span></a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- <div id=logo>Prácticas del Grado de Informática</div> -->
+    </header>
+    <div id=pagina>
+        <div class="separador"></div>
+        <div id=about>
+            <h2>Sobre mí</h2>
+            <p>Bienvenido a mi portfolio. Mi nombre es Sergio Rodríguez y soy un estudiante del Grado de Ingeniería Informática en la <strong><a href="http://www.ull.es" target="_blank">Universidad de La Laguna</a></strong>.</p>
+            <p>A continuación se muestran algunos de mis trabajos realizados para las asignaturas del grado y para el curso de <strong><a href="http://www.emezeta.com/cursos/diseno-web-css3/" target="_blank">Diseño Web en CSS3</a></strong>.</p>
+        </div>
+        <div class="separador"></div>
+        <div id=trabajos>
+            <h2>Mis trabajos</h2>
+            <div id="pl">
+                <h3>Procesadores de Lenguajes:</h3>
+                <ul>
+                    <li><a href="http://ull-esit-gradoii-pl.github.io/tareas-iniciales-alu0100699968/" target=_blank>Tareas iniciales</a></li>
+                    <li>
+                        <a href="https://ULL-ESIT-GRADOII-PL.github.io/conversor-de-temperatura-simple-sergio_-_jonathan">Conversor Temperatura Simple</a></li>
+                    <li>
+                        <a href="https://ULL-ESIT-GRADOII-PL.github.io/mocha-y-chai-sergio-jonathan">Conversor Temperatura con Mocha y Chai</a>
+                    </li>
+                    <li>
+                        <a href="https://ULL-ESIT-GRADOII-PL.github.io/karma-y-travis-sergio-jonathan">Conversor Temperatura con Karma y Travis</a>
+                    </li>
+                    <li><a href="http://csv-analyzer.herokuapp.com/">Analizador CSV (AJAX, Underscore, JQuery, ExpressJS y ECMA6)</a></li>
+                </ul>
+            </div>
+            <br>
+            <div id="css">
+                <h3>Diseño Web con CSS:</h3>
+                <a href="http://s.codepen.io/Androws/debug/bVQzxM" target="_blank"><img class="cuadro" src="http://files.catbox.moe/37c131.png" alt="Cuadro Solid Snake"></a>
+                <a href="http://s.codepen.io/Androws/debug/MaLdOV" target="_blank"><img class="cuadro" src="http://files.catbox.moe/8e95f2.png" alt="Cuadro Solid Snake"></a>
+                <a href="http://s.codepen.io/Androws/debug/NGZPoe" target="_blank"><img class="cuadro" src="http://files.catbox.moe/225280.png" alt="Cuadro Solid Snake"></a>
+            </div>
+        </div>
     </div>
-    <!-- <div id=logo>Prácticas del Grado de Informática</div> -->
-  </header>
-  <div id=pagina>
     <div class="separador"></div>
-    <div id=about>
-      <h2>Sobre mí</h2>
-      <p>Bienvenido a mi portfolio. Mi nombre es Sergio Rodríguez y soy un estudiante del Grado de Ingeniería Informática en la <strong><a href="http://www.ull.es" target="_blank">Universidad de La Laguna</a></strong>.</p>
-      <p>A continuación se muestran algunos de mis trabajos realizados para las asignaturas del grado y para el curso de <strong><a href="http://www.emezeta.com/cursos/diseno-web-css3/" target="_blank">Diseño Web en CSS3</a></strong>.</p>
-    </div>
-    <div class="separador"></div>
-    <div id=trabajos>
-      <h2>Mis trabajos</h2>
-      <div id="pl">
-        <h3>Procesadores de Lenguajes:</h3>
-        <ul>
-          <li><a href="http://ull-esit-gradoii-pl.github.io/tareas-iniciales-alu0100699968/" target=_blank>Tareas iniciales</a></li>
-          <li>
-            <a href="https://ULL-ESIT-GRADOII-PL.github.io/conversor-de-temperatura-simple-sergio_-_jonathan">Conversor Temperatura Simple</a></li>
-              <li>
-                <a  href="https://ULL-ESIT-GRADOII-PL.github.io/mocha-y-chai-sergio-jonathan">Conversor Temperatura con Mocha y Chai</a>
-              </li>
-              <li>
-                <a  href="https://ULL-ESIT-GRADOII-PL.github.io/karma-y-travis-sergio-jonathan">Conversor Temperatura con Karma y Travis</a>
-              </li>
+    <footer>
+        <p>Enlaces de interés:</p>
+        <ul id=listamenu>
+            <li><a href="http://codepen.io/Androws/" target="_blank">Codepen</a></li>
+            <li><a href="https://github.com/alu0100699968" target="_blank">GitHub</a></li>
+            <li><a href="https://es.linkedin.com/in/sergio-rodríguez-martín-13963b76" target="_blank">LinkedIn</a></li>
         </ul>
-      </div>
-      <br>
-      <div id="css">
-        <h3>Diseño Web con CSS:</h3>
-        <a href="http://s.codepen.io/Androws/debug/bVQzxM" target="_blank"><img class="cuadro" src="http://files.catbox.moe/37c131.png" alt="Cuadro Solid Snake"></a>
-        <a href="http://s.codepen.io/Androws/debug/MaLdOV" target="_blank"><img class="cuadro" src="http://files.catbox.moe/8e95f2.png" alt="Cuadro Solid Snake"></a>
-        <a href="http://s.codepen.io/Androws/debug/NGZPoe" target="_blank"><img class="cuadro" src="http://files.catbox.moe/225280.png" alt="Cuadro Solid Snake"></a>
-      </div>
-    </div>
-  </div>
-  <div class="separador"></div>
-  <footer>
-    <p>Enlaces de interés:</p>
-    <ul id=listamenu>
-      <li><a href="http://codepen.io/Androws/" target="_blank">Codepen</a></li>
-      <li><a href="https://github.com/alu0100699968" target="_blank">GitHub</a></li>
-      <li><a href="https://es.linkedin.com/in/sergio-rodríguez-martín-13963b76" target="_blank">LinkedIn</a></li>
-    </ul>
-  </footer>
+    </footer>
 </body>
 
 </html>
