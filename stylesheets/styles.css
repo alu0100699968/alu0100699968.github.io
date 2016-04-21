@@ -101,7 +101,7 @@ h3 {
 /*Cambio de estilo de los enlaces de la sección "Sobre mí" y del pie de página*/
 
 #about a,
-footer a, #pl a {
+footer a, #pl a, #htmljs a {
   color: white;
   font-style: italic;
 }
@@ -167,11 +167,11 @@ footer > ul {
   list-style-type: none;
 }
 
-#pl {
+#pl, #htmljs {
   text-align: left;
 }
 
-#pl ul {
+#pl ul, #htmljs ul {
   list-style-type: none;
 }
 /*Estilos para pantallas con un ancho menor a 640 píxeles*/
